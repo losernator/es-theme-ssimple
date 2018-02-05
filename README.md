@@ -2,20 +2,20 @@
 Theme 'ssimple' v2
 For use with EmulationStation
 
-Changelog
-=========
+# Changelog
 
-License
-=======
+
+# License
+
 -------------------------------------------------------------------------
-Summary of the license below:
-ALLOWED:      - Share and duplicate as it is
-              - Edit, alter, change it
-REQUIREMENTS: - Attribution, give credit to the creator
-              - Indicate changes to it
-              - Publish the changes under the same license
-PROHIBITED:   - Commercial distribution
+Summary of the license below:<br/>
+* ALLOWED:      - Share and duplicate as it is<br/>
+              - Edit, alter, change it
+* REQUIREMENTS: - Attribution, give credit to the creator<br/>
+              - Indicate changes to it<br/>
+              - Publish the changes under the same license<br/>
+* PROHIBITED:   - Commercial distribution
 -------------------------------------------------------------------------
-LOGO NOTICE
-The used logos and trademarks are copyright of their respective owners.
+# LOGO NOTICE
+* The used logos and trademarks are copyright of their respective owners.
 -------------------------------------------------------------------------
