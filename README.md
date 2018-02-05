@@ -1,5 +1,5 @@
-# es-theme-ssimple
-Theme 'ssimple' v2
+# es-theme-ssimplebox
+Theme 'ssimplebox' v2
 For use with EmulationStation
 
 # Changelog
