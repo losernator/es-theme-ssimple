@@ -90,7 +90,7 @@ Element color: Search and replace colors. Do not use spaces!
    <view name="basic">
 
       <textlist name="gamelist">
-         <pos>0.020833333 0.203703704</pos>
+         <pos>0.020833333 0.215</pos>
          <size>0.533333333 0.674074074</size>
          <selectorColor>378ac7</selectorColor>
          <selectedColor>ffffff</selectedColor>
@@ -99,13 +99,13 @@ Element color: Search and replace colors. Do not use spaces!
          <fontPath>./art/font.ttf</fontPath>
          <forceUppercase>0</forceUppercase>
          <horizontalMargin>0.021</horizontalMargin>
-         <lineSpacing>1.76</lineSpacing>
+         <lineSpacing>1.85</lineSpacing>
          <alignment>left</alignment>
-         <fontSize>0.0398</fontSize>
+         <fontSize>0.03</fontSize>
          <scrollSound>./art/scroll.wav</scrollSound>
          <selectorImagePath>./art/selector.png</selectorImagePath>
          <selectorHeight>0.066666667</selectorHeight>
-         <selectorOffsetY>0.0</selectorOffsetY>
+         <selectorOffsetY>-0.008</selectorOffsetY>
          <zIndex>35</zIndex>
       </textlist>
       
@@ -150,7 +150,7 @@ Element color: Search and replace colors. Do not use spaces!
          <color>969696</color>
          <forceUppercase>0</forceUppercase>
          <fontPath>./art/font.ttf</fontPath>
-         <fontSize>0.03</fontSize>
+         <fontSize>0.01</fontSize>
       </text>
 
       <text name="md_lbl_rating, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_releasedate, md_lbl_genre, md_lbl_developer, md_lbl_players">
@@ -161,7 +161,7 @@ Element color: Search and replace colors. Do not use spaces!
          <color>969696</color>
          <forceUppercase>0</forceUppercase>
          <fontPath>./art/font.ttf</fontPath>
-         <fontSize>0.03</fontSize>
+         <fontSize>0.01</fontSize>
       </datetime>
 
       <datetime name="md_lastplayed">
@@ -172,7 +172,7 @@ Element color: Search and replace colors. Do not use spaces!
          <color>969696</color>
          <forceUppercase>0</forceUppercase>
          <fontPath>./art/font.ttf</fontPath>
-         <fontSize>0.023</fontSize>
+         <fontSize>0.01</fontSize>
       </datetime>
 
       <datetime name="md_releasedate">
@@ -184,7 +184,7 @@ Element color: Search and replace colors. Do not use spaces!
          <color>969696</color>
          <forceUppercase>0</forceUppercase>
          <fontPath>./art/font.ttf</fontPath>
-         <fontSize>0.03</fontSize>
+         <fontSize>0.01</fontSize>
       </text>
 
       <text name="md_genre">
@@ -201,7 +201,7 @@ Element color: Search and replace colors. Do not use spaces!
          <color>969696</color>
          <forceUppercase>0</forceUppercase>
          <fontPath>./art/font.ttf</fontPath>
-         <fontSize>0.07</fontSize>
+         <fontSize>0.01</fontSize>
          <alignment>left</alignment>
       </text>
 
@@ -240,9 +240,8 @@ Element color: Search and replace colors. Do not use spaces!
          <origin>0.5 0.5</origin>
          <color>969696</color>
       </image>
-
       <textlist name="gamelist">
-         <pos>0.020833333 0.203703704</pos>
+         <pos>0.020833333 0.215</pos>
          <size>0.533333333 0.674074074</size>
          <selectorColor>378ac7</selectorColor>
          <selectedColor>ffffff</selectedColor>
@@ -251,13 +250,13 @@ Element color: Search and replace colors. Do not use spaces!
          <fontPath>./art/font.ttf</fontPath>
          <forceUppercase>0</forceUppercase>
          <horizontalMargin>0.021</horizontalMargin>
-         <lineSpacing>1.76</lineSpacing>
+         <lineSpacing>1.85</lineSpacing>
          <alignment>left</alignment>
-         <fontSize>0.0398</fontSize>
+         <fontSize>0.03</fontSize>
          <scrollSound>./art/scroll.wav</scrollSound>
          <selectorImagePath>./art/selector.png</selectorImagePath>
          <selectorHeight>0.066666667</selectorHeight>
-         <selectorOffsetY>0.0</selectorOffsetY>
+         <selectorOffsetY>-0.008</selectorOffsetY>
          <zIndex>35</zIndex>
       </textlist>
 
