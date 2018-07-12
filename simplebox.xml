@@ -8,8 +8,6 @@ license: creative commons CC-BY-NC-SA
 -->
 <theme>
   <formatVersion>4</formatVersion>
-
-  <!-- System View -->
   <view name="system">
       <image name="background" extra="true">
         <tile>false</tile>
@@ -39,22 +37,13 @@ license: creative commons CC-BY-NC-SA
       </image>
     </view>
 
-    <view name="basic, detailed, video,grid">
+    <view name="basic, detailed, video, grid">
       <image name="background">
         <tile>false</tile>
         <pos>0 0</pos>
         <origin>0 0</origin>
         <size>1 1</size>
         <path>./art/bg.png</path>
-      </image>
-
-      <image name="bg_overlay" extra="true">
-        <tile>false</tile>
-        <pos>0 0</pos>
-        <origin>0 0</origin>
-        <size>1 1</size>
-        <path>./art/bg_overlay.png</path>
-        <zIndex>34</zIndex>
       </image>
 
       <image name="main_logo" extra="true">
@@ -74,8 +63,8 @@ license: creative commons CC-BY-NC-SA
       </image>
 -->
       <textlist name="gamelist">
-        <pos>0.020833333 0.215</pos>
-        <size>0.533333333 0.674074074</size>
+        <pos>0.020833333 0.2200</pos>
+        <size>0.533333333 0.644</size>
         <selectorColor>378ac7</selectorColor>
         <selectedColor>ffffff</selectedColor>
         <primaryColor>85a4b7</primaryColor>
@@ -83,7 +72,7 @@ license: creative commons CC-BY-NC-SA
         <fontPath>./art/font.ttf</fontPath>
         <forceUppercase>0</forceUppercase>
         <horizontalMargin>0.021</horizontalMargin>
-        <lineSpacing>1.85</lineSpacing>
+        <lineSpacing>1.86</lineSpacing>
         <alignment>left</alignment>
         <fontSize>0.03</fontSize>
         <scrollSound>./art/scroll.wav</scrollSound>
@@ -98,8 +87,37 @@ license: creative commons CC-BY-NC-SA
         <iconColor>4d759b</iconColor>
         <fontSize>0.023611</fontSize>
       </helpsystem>
+      <text name="md_lbl_rating, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_releasedate, md_lbl_genre, md_lbl_developer, md_lbl_players, md_genre, md_developer, md_players, md_description">
+        <pos>1 1</pos>
+      </text>
+      <datetime name="md_lastplayed, md_releasedate">
+        <pos>1 1</pos>
+      </datetime>
     </view>
 
+    <view name="basic, detailed, video">
+      <image name="bg_overlay" extra="true">
+        <tile>false</tile>
+        <pos>0 0</pos>
+        <origin>0 0</origin>
+        <size>1 1</size>
+        <path>./art/bg_overlay.png</path>
+        <zIndex>34</zIndex>
+      </image>
+      <image name="md_marquee">
+        <pos>0.777083333 0.140</pos>
+        <origin>0.5 0.5</origin>
+        <maxSize>0.300 0.180</maxSize>
+      </image>
+    </view>
+
+    <view name="detailed, grid">
+      <image name="md_image">
+        <pos>0.777083333 0.444444444</pos>
+        <maxSize>0.404166667 0.518518519</maxSize>
+        <origin>0.5 0.5</origin>
+      </image>
+    </view>
     <feature supported="video">
       <view name="video">
          <video name="md_video">
@@ -115,39 +133,16 @@ license: creative commons CC-BY-NC-SA
     </feature>
     <view name="grid">
       <imagegrid name="gamegrid">
-        <pos>0.020833333 0.215</pos>
-        <size>0.950 0.674074074</size>
+        <pos>0.020833333 0.2200</pos>
+        <size>0.950 0.644</size>
         <margin>0.02 0.02</margin>
       </imagegrid>
       <gridtile name="default">
           <size>0.173 0.21</size>
-          <backgroundColor>ffffff</backgroundColor>
+          <backgroundColor>00000000</backgroundColor>
       </gridtile>
       <gridtile name="selected">
         <backgroundColor>00000000</backgroundColor>
       </gridtile>
     </view>
-    
-    <view name="detailed, grid">
-      <image name="md_image">
-        <pos>0.777083333 0.444444444</pos>
-        <maxSize>0.404166667 0.518518519</maxSize>
-        <origin>0.5 0.5</origin>
-      </image>
-    </view>
-
-    <view name="detailed, video, grid">
-      <image name="md_marquee">
-        <pos>0.777083333 0.140</pos>
-        <origin>0.5 0.5</origin>
-        <maxSize>0.300 0.180</maxSize>
-      </image>
-      <text name="md_lbl_rating, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_releasedate, md_lbl_genre, md_lbl_developer, md_lbl_players, md_genre, md_developer, md_players, md_description">
-        <pos>1 1</pos>
-      </text>
-      <datetime name="md_lastplayed, md_releasedate">
-        <pos>1 1</pos>
-      </datetime>
-   </view>
-
    </theme>

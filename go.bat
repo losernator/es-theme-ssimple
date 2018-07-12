@@ -82,3 +82,4 @@ copy /y theme.xml wonderswancolor
 copy /y theme.xml zmachine
 copy /y theme.xml zxspectrum
 copy /y theme.xml x68000
+copy /y theme.xml cps
