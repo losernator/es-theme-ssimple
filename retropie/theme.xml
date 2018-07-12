@@ -2,51 +2,38 @@
     <formatVersion>3</formatVersion>
     <include>./../simplebox.xml</include>
 
-	<view name="system">
+    <view name="system">
 
-		<image name="ControllerOverlay" extra="true">
-			<tile>false</tile>
-			<pos>0.5 0.2</pos>
-			<origin>0.5 0.5</origin>
-			<size>0.3 0</size>
-			<path>./art/controller.svg</path>
-			<!--<color>8b0000</color>-->
-		</image>
-		
-		<image name="logo">
-			<path>./art/system.svg</path>
+        <image name="ControllerOverlay" extra="true">
+            <tile>false</tile>
+            <pos>0.5 0.2</pos>
+            <origin>0.5 0.5</origin>
+            <size>0.3 0</size>
+            <path>./art/controller.svg</path>
+            <!--<color>8b0000</color>-->
+        </image>
+        <image name="logo">
+            <path>./art/system.svg</path>
      </image>
-		
-	</view>
+    </view>
 
-	<view name="basic, detailed, video">
+    <view name="basic, detailed, video, grid">
+        <image name="logo">
+            <path>./art/system.svg</path>
+            <pos>0.796 0.094</pos>
+            <maxSize>0.316 0.110</maxSize>
+            <origin>0.5 0.5</origin>
+        </image>
+    </view>
 
-		<image name="logo">
-			<path>./art/system.svg</path>
-			<pos>0.796 0.094</pos>
-			<maxSize>0.316 0.110</maxSize>
-			<origin>0.5 0.5</origin>
-		</image>
-
-
-	</view>
-
-	<view name="basic">		
-	</view>
-
-	<view name="detailed, video">
-		<datetime name="md_releasedate">
-			<pos>1 1</pos>
-		</datetime>
-		<text name="md_lbl_releasedate, md_lbl_genre, md_genre, md_lbl_developer, md_developer, md_lbl_players, md_players">
-			<pos>1 1</pos>
-		</text>
-		<text name="md_description">
-			<fontSize>0.03</fontSize>
-			<size>0.290 0.127</size>
-			<pos>0.651 0.733</pos>
-		</text>		
-		
-	</view>
-	
+    <view name="detailed, video, grid">
+        <text name="md_description">
+            <fontPath>./art/font_sub.ttf</fontPath>
+            <color>969696</color>
+            <fontSize>0.03</fontSize>
+            <size>0.290 0.127</size>
+            <pos>0.651 0.733</pos>
+            <forceUppercase>0</forceUppercase>
+        </text>
+    </view>
 </theme>
