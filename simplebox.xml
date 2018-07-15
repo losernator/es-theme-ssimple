@@ -35,9 +35,9 @@ license: creative commons CC-BY-NC-SA
       <image name="ControllerOverlay" extra="true">
         <color>aaaaaa</color>
       </image>
-    </view>
+  </view>
 
-    <view name="basic, detailed, video, grid">
+  <view name="basic, detailed, video, grid">
       <image name="background">
         <tile>false</tile>
         <pos>0 0</pos>
@@ -93,6 +93,9 @@ license: creative commons CC-BY-NC-SA
       <datetime name="md_lastplayed, md_releasedate">
         <pos>1 1</pos>
       </datetime>
+      <rating name="md_rating">
+      	<pos>1 1</pos>
+      </rating>
     </view>
 
     <view name="basic, detailed, video">
@@ -145,4 +148,4 @@ license: creative commons CC-BY-NC-SA
         <backgroundColor>00000000</backgroundColor>
       </gridtile>
     </view>
-   </theme>
+</theme>
