@@ -69,20 +69,20 @@ license: creative commons CC-BY-NC-SA
 				<fontPath>./art/font.ttf</fontPath>
 				<forceUppercase>0</forceUppercase>
 				<horizontalMargin>0.021</horizontalMargin>
-				<lineSpacing>1.86</lineSpacing>
+				<lineSpacing>1.75</lineSpacing>
 				<alignment>left</alignment>
-				<fontSize>0.03</fontSize>
+				<fontSize>0.037037037037037</fontSize>
 				<scrollSound>./art/scroll.wav</scrollSound>
 				<selectorImagePath>./art/selector.png</selectorImagePath>
 				<selectorHeight>0.066666667</selectorHeight>
-				<selectorOffsetY>-0.008</selectorOffsetY>
+				<selectorOffsetY>-0.0018518518518519</selectorOffsetY>
 				<zIndex>35</zIndex>
 			</textlist>
 			<helpsystem name="help">
 				<pos>0.023958333 0.925925926</pos>
 				<textColor>4d759b</textColor>
 				<iconColor>4d759b</iconColor>
-				<fontSize>0.023611</fontSize>
+				<fontSize>0.0296296296296296</fontSize>
 			</helpsystem>
 			<text name="md_lbl_rating, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_releasedate, md_lbl_genre, md_lbl_developer, md_lbl_players, md_genre, md_developer, md_players, md_description">
 				<pos>1 1</pos>
